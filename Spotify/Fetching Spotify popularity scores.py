@@ -14,10 +14,10 @@ import statistics
 
 
 # spotify authentication and initialization of client object
-client_id = 'b77ebc97bd864c88842c33679be4c8c6'
-client_secret = 'dc9615e908b54edbbbb7a1e4ebc3a861'
-redirect_uri = 'http://localhost:8888/callback'
-username = 'kljunar'
+client_id = '############'
+client_secret = '###########'
+redirect_uri = '###############"'
+username = '###########'
 scopes = 'playlist-modify-private'
 
 sp_oauth = SpotifyOAuth(client_id=client_id,client_secret=client_secret,redirect_uri=redirect_uri,scope=scopes)
